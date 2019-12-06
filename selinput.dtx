@@ -1,13 +1,13 @@
 % \iffalse meta-comment
 %
 % File: selinput.dtx
-% Version: 2016/05/17 v1.4
+% Version: 2019/12/15 v1.5
 % Info: Semi-automatic input encoding detection
 %
 % Copyright (C)
 %    2007 Heiko Oberdiek
 %    2016-2019 Oberdiek Package Support Group
-%    https://github.com/ho-tex/oberdiek/issues
+%    https://github.com/ho-tex/selinput/issues
 %
 % This work may be distributed and/or modified under the
 % conditions of the LaTeX Project Public License, either
@@ -23,7 +23,7 @@
 %
 % The Current Maintainers of this work are
 % Heiko Oberdiek and the Oberdiek Package Support Group
-% https://github.com/ho-tex/oberdiek/issues
+% https://github.com/ho-tex/selinput/issues
 %
 % This work consists of the main source file selinput.dtx
 % and the derived files
@@ -32,8 +32,8 @@
 %    selinput-test4.tex, selinput-test5.tex.
 %
 % Distribution:
-%    CTAN:macros/latex/contrib/oberdiek/selinput.dtx
-%    CTAN:macros/latex/contrib/oberdiek/selinput.pdf
+%    CTAN:macros/latex/contrib/selinput/selinput.dtx
+%    CTAN:macros/latex/contrib/selinput/selinput.pdf
 %
 % Unpacking:
 %    (a) If selinput.ins is present:
@@ -62,9 +62,9 @@
 %       pdflatex selinput.dtx
 %
 % Installation:
-%    TDS:tex/latex/oberdiek/selinput.sty
-%    TDS:doc/latex/oberdiek/selinput.pdf
-%    TDS:source/latex/oberdiek/selinput.dtx
+%    TDS:tex/latex/selinput/selinput.sty
+%    TDS:doc/latex/selinput/selinput.pdf
+%    TDS:source/latex/selinput/selinput.dtx
 %
 %<*ignore>
 \begingroup
@@ -81,7 +81,7 @@
 \input docstrip.tex
 \Msg{************************************************************************}
 \Msg{* Installation}
-\Msg{* Package: selinput 2016/05/17 v1.4 Semi-automatic input encoding detection (HO)}
+\Msg{* Package: selinput 2019/12/15 v1.5 Semi-automatic input encoding detection (HO)}
 \Msg{************************************************************************}
 
 \keepsilent
@@ -93,7 +93,7 @@
 This is a generated file.
 
 Project: selinput
-Version: 2016/05/17 v1.4
+Version: 2019/12/15 v1.5
 
 Copyright (C)
    2007 Heiko Oberdiek
@@ -113,7 +113,7 @@ This work has the LPPL maintenance status "maintained".
 
 The Current Maintainers of this work are
 Heiko Oberdiek and the Oberdiek Package Support Group
-https://github.com/ho-tex/oberdiek/issues
+https://github.com/ho-tex/selinput/issues
 
 
 This work consists of the main source file selinput.dtx
@@ -128,14 +128,8 @@ and the derived files
 \generate{%
   \file{selinput.ins}{\from{selinput.dtx}{install}}%
   \file{selinput.drv}{\from{selinput.dtx}{driver}}%
-  \usedir{tex/latex/oberdiek}%
+  \usedir{tex/latex/selinput}%
   \file{selinput.sty}{\from{selinput.dtx}{package}}%
-%  \usedir{doc/latex/oberdiek/test}%
-%  \file{selinput-test1.tex}{\from{selinput.dtx}{test,test1}}%
-%  \file{selinput-test2.tex}{\from{selinput.dtx}{test,test2}}%
-%  \file{selinput-test3.tex}{\from{selinput.dtx}{test,test3}}%
-%  \file{selinput-test4.tex}{\from{selinput.dtx}{test,test4}}%
-%  \file{selinput-test5.tex}{\from{selinput.dtx}{test,test5}}%
 }
 
 \catcode32=13\relax% active space
@@ -162,7 +156,7 @@ and the derived files
 %<*driver>
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesFile{selinput.drv}%
-  [2016/05/17 v1.4 Semi-automatic input encoding detection (HO)]%
+  [2019/12/15 v1.5 Semi-automatic input encoding detection (HO)]%
 \documentclass{ltxdoc}
 \ifx\Umathcode\undefined
 \usepackage[T1]{fontenc}
@@ -182,9 +176,9 @@ and the derived files
 % \GetFileInfo{selinput.drv}
 %
 % \title{The \xpackage{selinput} package}
-% \date{2016/05/17 v1.4}
+% \date{2019/12/15 v1.5}
 % \author{Heiko Oberdiek\thanks
-% {Please report any issues at \url{https://github.com/ho-tex/oberdiek/issues}}}
+% {Please report any issues at \url{https://github.com/ho-tex/selinput/issues}}}
 %
 % \maketitle
 %
@@ -360,7 +354,7 @@ and the derived files
 %<*package>
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesPackage{selinput}
-  [2016/05/17 v1.4 Semi-automatic input encoding detection (HO)]%
+  [2019/12/15 v1.5 Semi-automatic input encoding detection (HO)]%
 %    \end{macrocode}
 %
 %    \begin{macrocode}
@@ -649,17 +643,17 @@ and the derived files
 % \paragraph{Package.} This package is available on
 % CTAN\footnote{\CTANpkg{selinput}}:
 % \begin{description}
-% \item[\CTAN{macros/latex/contrib/oberdiek/selinput.dtx}] The source file.
-% \item[\CTAN{macros/latex/contrib/oberdiek/selinput.pdf}] Documentation.
+% \item[\CTAN{macros/latex/contrib/selinput/selinput.dtx}] The source file.
+% \item[\CTAN{macros/latex/contrib/selinput/selinput.pdf}] Documentation.
 % \end{description}
 %
 %
-% \paragraph{Bundle.} All the packages of the bundle `oberdiek'
+% \paragraph{Bundle.} All the packages of the bundle `selinput'
 % are also available in a TDS compliant ZIP archive. There
 % the packages are already unpacked and the documentation files
 % are generated. The files and directories obey the TDS standard.
 % \begin{description}
-% \item[\CTANinstall{install/macros/latex/contrib/oberdiek.tds.zip}]
+% \item[\CTANinstall{install/macros/latex/contrib/selinput.tds.zip}]
 % \end{description}
 % \emph{TDS} refers to the standard ``A Directory Structure
 % for \TeX\ Files'' (\CTANpkg{tds}). Directories
@@ -667,11 +661,11 @@ and the derived files
 %
 % \subsection{Bundle installation}
 %
-% \paragraph{Unpacking.} Unpack the \xfile{oberdiek.tds.zip} in the
+% \paragraph{Unpacking.} Unpack the \xfile{selinput.tds.zip} in the
 % TDS tree (also known as \xfile{texmf} tree) of your choice.
 % Example (linux):
 % \begin{quote}
-%   |unzip oberdiek.tds.zip -d ~/texmf|
+%   |unzip selinput.tds.zip -d ~/texmf|
 % \end{quote}
 %
 % \subsection{Package installation}
@@ -689,9 +683,9 @@ and the derived files
 % \begin{quote}
 % \def\t{^^A
 % \begin{tabular}{@{}>{\ttfamily}l@{ $\rightarrow$ }>{\ttfamily}l@{}}
-%   selinput.sty & tex/latex/oberdiek/selinput.sty\\
-%   selinput.pdf & doc/latex/oberdiek/selinput.pdf\\
-%   selinput.dtx & source/latex/oberdiek/selinput.dtx\\
+%   selinput.sty & tex/latex/selinput/selinput.sty\\
+%   selinput.pdf & doc/latex/selinput/selinput.pdf\\
+%   selinput.dtx & source/latex/selinput/selinput.dtx\\
 % \end{tabular}^^A
 % }^^A
 % \sbox0{\t}^^A
@@ -844,6 +838,10 @@ and the derived files
 %   \begin{Version}{2016/05/17 v1.4}
 %   \item
 %      Documentation updates: Avoid T1 encoding with Unicode \TeX.
+%   \end{Version}
+%   \begin{Version}{2019/12/15 v1.5}
+%   \item
+%     Documentation updates.
 %   \end{Version}
 % \end{History}
 %
