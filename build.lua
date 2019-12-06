@@ -17,7 +17,7 @@ packtdszip  = true
 
 maxprintline=10000
 checkruns = 2
-
+checkconfigs = {"build","config-pdftex"}
 
 function update_tag(file,content,tagname,tagdate)
 
