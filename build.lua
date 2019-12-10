@@ -3,12 +3,6 @@
 
 module = "selinput"
 
-installfiles = {
-'*.sty',
-'selinput-showcases.tex',
-'*.dtx','*.pdf'
-}
-
 
 textfiles = {"README.md"}
 unpackfiles = {'selinput.dtx'}
